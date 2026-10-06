@@ -510,9 +510,28 @@ header.scrolled {
   gap: 15px;
 }
 
+.page-hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.page-hero-badges span {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  border: 1px solid rgba(234, 230, 223, 0.15);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--text-secondary);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
 .hero-eyebrow::before,
-.hero-eyebrow::after {
-  content: "";
+.hero-eyebrow::after {  content: "";
   width: 15px;
   height: 1px;
   background-color: var(--border-color);
